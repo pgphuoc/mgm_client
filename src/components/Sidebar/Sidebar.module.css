@@ -1,0 +1,9 @@
+.sidebar {
+  --sidebar-profile-height: 70px;
+  width: var(--sidebar-width);
+  background: #11101d;
+}
+
+.sidebar.close {
+  width: 78px;
+}

@@ -1,7 +1,8 @@
 import React from 'react';
+import AdminLayout from '@/layouts/AdminLayout/AdminLayout';
 
 function App() {
-  return <h1>Hello ReactJS App</h1>;
+  return <AdminLayout></AdminLayout>;
 }
 
 export default App;

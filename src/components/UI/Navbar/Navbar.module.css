@@ -1,0 +1,25 @@
+.navbar {
+  align-items: center;
+  display: flex;
+  height: var(--sidebar-header-height);
+  box-shadow: rgba(4, 9, 20, 0.1) 0px 10px 10px -5px,
+    rgba(4, 9, 20, 0.05) 0px 4px 6px -2px;
+}
+
+.navbar i,
+.navbar span {
+  color: #11101d;
+  font-size: 35px;
+}
+
+.navbar i {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.navbar span {
+  font-weight: 600;
+  font-family: headplane;
+  letter-spacing: 2px;
+  font-size: 3rem;
+}

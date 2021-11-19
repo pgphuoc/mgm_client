@@ -1,0 +1,8 @@
+.wrapper-section {
+  width: 100%;
+  padding: 15px;
+  position: relative;
+  background: #e4e9f7;
+  margin-top: var(--element-gap);
+  height: calc(100vh - var(--sidebar-header-height) - var(--element-gap));
+}
