@@ -1,12 +1,14 @@
+import CardUser from '@/components/Anken/AnkenForm/CardUser/CardUser';
+import CardUserAdd from '@/components/Anken/AnkenForm/CardUser/CardUserAdd';
+import SearchInput from '@/components/UI/SearchInput/SearchInput';
 import Box from '@/components/UI/Box/Box';
-import CardUser from '@/components/UI/CardUser/CardUser';
-import CardUserAdd from '@/components/UI/CardUser/CardUserAdd';
 import Form from '@/components/UI/Form/Form';
 import FormControl from '@/components/UI/Form/FromControl';
 import InputForm from '@/components/UI/Form/InputForm';
 import Tags from '@/components/UI/Tags/Tags';
 import React from 'react';
 import classes from './AnkenForm.module.css';
+import FunctionsList from './FunctionsList/FunctionsList';
 
 export default function AnkenForm() {
   return (
@@ -18,6 +20,7 @@ export default function AnkenForm() {
           <FormControl label="For: ">
             <Tags />
           </FormControl>
+
           <FormControl label="in: ">
             <InputForm placeholder="Typing project.." />
           </FormControl>
@@ -62,11 +65,8 @@ export default function AnkenForm() {
           className={`${classes['form__group']} ${classes['function__group']}`}
         >
           <h2>Project Functions</h2>
-          <InputForm
-            placeholder="Typing modify functions.."
-            styleClass={classes['function__search']}
-            wrapStyleClass={classes['function__wrap-search']}
-          />
+          <SearchInput />
+          <FunctionsList />
         </div>
       </Form>
     </Box>

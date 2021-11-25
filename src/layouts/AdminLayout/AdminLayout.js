@@ -1,8 +1,7 @@
 import Sidebar from '@/components/Sidebar/Sidebar';
 import Navbar from '@/components/UI/Navbar/Navbar';
 import Wrapper from '@/components/UI/Wrapper/Wrapper';
-import AnkenCreate from '@/pages/Dashboard/Anken/Create/AnkenCreate';
-import Dashboard from '@/pages/Dashboard/Dashboard';
+import AnkenCreate from '@/pages/Anken/Create/AnkenCreate';
 import { uiAction, uiSelector } from '@/reducers/UiReducer';
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
