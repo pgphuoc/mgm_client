@@ -67,6 +67,8 @@ export default function AnkenForm() {
           <h2>Project Functions</h2>
           <SearchInput />
           <FunctionsList />
+          <FunctionsList />
+          <FunctionsList />
         </div>
       </Form>
     </Box>
